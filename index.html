@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Kanit:ital@1&family=Qwitcher+Grypen&family=Raleway&display=swap"
+    rel="stylesheet" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css" />
+  <link rel="icon" type="image/x-icon" href="./assets/img/favicon.ico" />
+  <title>CV</title>
+</head>
+<body>
+    <header class="header" id='header'>
+    <div class="header__nav-wrap">
+      <nav class="header__nav">
+        <ul class="header__list">
+          <li class="header__item">
+            <a href="#aboutMe" class="header__link" data-i18="aboutMe">AboutMe</a>
+          </li>
+          <li class="header__item">
+            <a href="#skills" class="header__link" data-i18="skills">Skills</a>
+          </li>
+          <li class="header__item">
+            <a href="#works" class="header__link" data-i18="works">Works</a>
+          </li>
+          <li class="header__item">
+            <a href="#certificates" class="header__link" data-i18="certificates">Certificates</a>
+          </li>
+          <li class="header__item">
+            <a href="#contact" class="header__link" data-i18="contacts">Contacts</a>
+          </li>
+        </ul>
+      </nav>
+      <div class="header__swith">
+        <button class="header__button header__swith-en active__button languageEn">
+          en
+        </button>
+        <div>/</div>
+        <button class="header__button header__swith-ru active__button languageRu">
+          ru
+        </button>
+        <button class="header__theme-button"></button>
+        <div class="hamburger">
+          <div class="line line1"></div>
+          <div class="line line2"></div>
+          <div class="line line3"></div>
+        </div>
+      </div>
+    </div>
+    <a href="#header">
+      <div class='arrow'></div>
+    </a>
+  </header>
+  <main>
+    <div class="container">
+      <section class="name">
+        <div class="name__wrapper" data-aos="fade-up" data-aos-duration="500">
+          <div class="name__info">
+            <div class="name__info-wrapper">
+              <h1 class="name__info-name" data-i18="name">Aliona Muhatdinova</h1>
+              <div class="name__info-position" data-i18="position">Frontend developer</div>
+            </div>
+            <div class="name__contacts-wrap" id="aboutMe">
+              <div class="name__info-contacts">
+                <div class="name__info-contact">
+                  <img class='img' src="./assets/img/mail.svg" alt="email" />alionazimaby@gmail.com
+                </div>
+                <div class="name__info-contact">
+                  <img class='img' src="./assets/img/call.svg" alt="email" />
+                  +375 29 874 01 07
+                </div>
+              </div>
+              <a href="https://github.com/alionamu"><img class="name__contacts-img img gitImg"
+                  src="./assets/img/github.png" alt="github" /></a>
+            </div>
+            <ul class="name__info-links">
+              <li>
+                <a href="https://t.me/AlionaMu"><img class='img linkimg' src="./assets/img/telegram.png"
+                    alt="telegram" /></a>
+              </li>
+              <li>
+                <a href="https://www.linkedin.com/in/aliona-muhatdinova/"><img class='img linkimg' src="./assets/img/linkedin.png"
+                    alt="linkedin" /></a>
+              </li>
+              <li>
+                <a href="https://www.codewars.com/users/AlionaMu"><img class='img linkimg' src="./assets/img/code wars.png"
+                    alt="code wars" /></a>
+              </li>
+            </ul>
+          </div>
+          <div class="name__img"></div>
+        </div>
+      </section>
+      <section class="aboutMe">
+        <div class="aboutMe__info" data-aos="fade-up" data-aos-duration="2000" data-i18="aboutMe-info">
+          Frontend developerer with ability to adapt in both self-starting and
+          collaborative environments while staying focused on achieving high-
+          quality results under strict deadlines.  
+          <br>
+          I eager to obtain a position that will expand my learning and build upon
+          my developer skills.
+        </div>
+        <div class="aboutMe__contactMe-button" id="skills">
+          <a href="#contact">
+            <div class='button' data-i18="contactMe">CONTACT ME</div>
+          </a>
+        </div>
+      </section>
+      <section class="skills">
+        <div class="title">
+          <img src="./assets/img/skills.png" alt="" />
+          <h2 data-i18="skills">Skills</h2>
+        </div>
+        <div class="skills__info" data-aos="zoom-in" data-aos-duration="1500">
+          <div class="skills__skill-wrap-top">
+            <div class="skills__skill skills__skill-top">
+              <img src="./assets/img/icons8-html-5-100.png" alt="HTML" />
+              <div>HTML</div>
+            </div>
+            <div class="skills__skill skills__skill-top">
+              <img src="./assets/img/icons8-css-файл-100.png" alt="CSS" />
+              <div>CSS</div>
+            </div>
+            <div class="skills__skill skills__skill-top">
+              <img src="./assets/img/icons8-node-js-128.png" alt="JS" />
+              <div>JS</div>
+            </div>
+            <div class="skills__skill skills__skill-top">
+              <img src="./assets/img/icons8-typescript-100.png" alt="TS" />
+              <div>TS</div>
+            </div>
+          </div>
+          <div class="skills__skill-wrap-bottom">
+            <div class="skills__skill skills__skill-bottom">
+              <img src="./assets/img/icons8-реакция-100.png" alt="REACT" />
+              <div>REACT</div>
+            </div>
+            <div class="skills__skill skills__skill-bottom">
+              <img src="./assets/img/redux.png" alt="REDUX" />
+              <div>REDUX</div>
+            </div>
+            <div class="skills__skill skills__skill-bottom">
+              <img src="./assets/img/angular.png" alt="ANGULAR" />
+              <div>ANGULAR</div>
+            </div>
+            <div class="skills__skill skills__skill-bottom">
+              <img src="./assets/img/icons8-git-100.png" alt="GIT" />
+              <div>GIT</div>
+            </div>
+            <div class="skills__skill skills__skill-bottom">
+              <img src="./assets/img/webpack.png" alt="WEBPACK" />
+              <div>WEBPACK</div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="portfolio" id="works">
+        <div class="title">
+          <img src="./assets/img/working.png" alt="" />
+          <h2 data-i18="works">Works</h2>
+        </div>
+        <div class="portfolio__info">
+          <div class="portfolio__card-wrapper" data-aos="fade-up" data-aos-duration="1000">
+            <a href="https://rolling-scopes-school.github.io/alexshishkov-JSFEPRESCHOOL/random-jokes/"
+              class="portfolio__card">
+              <img src="./assets/img/random-jokes.jpg" alt="random-jokes" />
+              <div class='portfolio__card-name'>Random quotes</div>
+            </a>
+            <div class="portfolio__card-title">
+              <div class="portfolio__card-titleText">
+                <div>R</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio__card-wrapper left" data-aos="fade-down" data-aos-duration="1000">
+            <div class="portfolio__card-title">
+              <div class="portfolio__card-titleText">
+                <div>T</div>
+              </div>
+            </div>
+            <a href="https://final-task-team-62-react-2022q3.netlify.app/"
+              class="portfolio__card">
+              <img src="./assets/img/task manager.jpg" alt="task manager" />
+              <div class='portfolio__card-name'>Task manager (React)</div>
+            </a>
+          </div>
+
+          <div class="portfolio__card-wrapper" data-aos="fade-up" data-aos-duration="1000">
+            <a href="https://rolling-scopes-school.github.io/alexshishkov-JSFEPRESCHOOL/portfolio/"
+              class="portfolio__card">
+              <img src="./assets/img/photo.jpg" alt="photo" />
+              <div class='portfolio__card-name'>photographer's landing page</div>
+            </a>
+            <div class="portfolio__card-title">
+              <div class="portfolio__card-titleText">
+                <div>P</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio__card-wrapper left" data-aos="fade-down" data-aos-duration="1000">
+            <div class="portfolio__card-title">
+              <div class="portfolio__card-titleText">
+                <div>M</div>
+              </div>
+            </div>
+            <a href="https://marvel-encyclopedia-alexshishkov.netlify.app/" class="portfolio__card">
+              <img src="./assets/img/marvel-encyclopedia.jpg" alt="react marvel encyclopedia" />
+              <div class='portfolio__card-name'>Marvel encyclopedia (React)</div>
+            </a>
+          </div>
+
+          <div class="portfolio__card-wrapper" data-aos="fade-up" data-aos-duration="1000">
+            <a href="https://rolling-scopes-school.github.io/alexshishkov-JSFE2022Q1/shelter/pages/main/index.html" class="portfolio__card">
+              <img src="./assets/img/shelter.jpg" alt="Shelter" />
+              <div class='portfolio__card-name'>Shelter</div>
+            </a>
+            <div class="portfolio__card-title">
+              <div class="portfolio__card-titleText">
+                <div>S</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="portfolio__card-wrapper left" data-aos="fade-down" data-aos-duration="1000">
+            <div class="portfolio__card-title">
+              <div class="portfolio__card-titleText">
+                <div>V</div>
+              </div>
+            </div>
+            <a href="https://alexshishkov.github.io/virtual-keyboard/" class="portfolio__card">
+              <img src="./assets/img/keyboard.jpg" alt="keyboard" />
+              <div class='portfolio__card-name'>Virtual keyboard</div>
+            </a>
+          </div>
+
+          <div class="portfolio__card-wrapper" data-aos="fade-up" data-aos-duration="1000">
+            <a href="https://alexshishkov.github.io/cssMemSlider/cssMemSlider/index.html" class="portfolio__card">
+              <img src="./assets/img/rockSlider.jpg" alt="Css rock slider" />
+              <div class='portfolio__card-name'>Css rock slider</div>
+            </a>
+            <div class="portfolio__card-title">
+              <div class="portfolio__card-titleText">
+                <div>C</div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </section>
+      <section class="certificates" id="certificates" data-aos-duration="1200">
+        <div class="title">
+          <img src="./assets/img/award.png" alt="certificates" />
+          <h2 data-i18="certificates">Certificates</h2>
+        </div>
+          <div class='certificates__wrapper'>
+            <a data-aos="flip-up" data-aos-duration="1200" href="https://app.rs.school/certificate/xp49jwsp"><img class="certificate" src="./assets/img/javascript-certificate.jpg" alt="javascript-certificate"/></a>
+            <a data-aos="flip-left" data-aos-duration="1200" href="https://app.rs.school/certificate/3odykewg"><img class="certificate" src="./assets/img/angular-certificate.jpg" alt="angular-certificate"/></a>
+            <a data-aos="flip-up" data-aos-duration="1200" href="https://app.rs.school/certificate/zpv6kcyu"><img class="certificate" src="./assets/img/react-certificate.jpg" alt="react-certificate"/></a>
+
+          </div>  
+      </section>
+      <section class="contact" id="contact" data-aos="zoom-in" data-aos-duration="1200">
+        <div class="title">
+          <img src="./assets/img/contact.png" alt="contact" />
+          <h2 data-i18="contacts">Contact</h2>
+        </div>
+        <div class='contact__wrapper'>
+          <form class="contact__forms" id="my-form" action="https://formspree.io/f/mnqyqllb" method="POST">
+            <input class="contact__input contact__input-name" type="name" name="name" placeholder='Name' />
+            <input class="contact__input contact__input-email" type="email" name="email" placeholder='Email' />
+            <textarea class="contact__input last-input subject" type="text" name="message" placeholder='Subject'></textarea>
+            <button class="button" id="my-form-button" data-i18="send">Send</button>
+            <p id="my-form-status"></p>
+          </form>
+        </div>
+      </section>
+    </div>
+  </main>
+  <footer>
+    <div>Aliona Muhatdinova 2022</div>
+  </footer>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+  <script type="module" src="./js/index.js"></script>
+</body>
+</html>
