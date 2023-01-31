@@ -478,6 +478,10 @@ main {
   display: flex;
   justify-content: space-around;
   margin-top: 3em;
+  flex-wrap: wrap;
+}
+.certificates__wrapper > * {
+  margin: 30px;
 }
 .certificate {
   width: 600px;
@@ -633,6 +637,7 @@ footer {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
+    flex-wrap: nowrap;
   }
 }
 @media (max-width: 750px) {
